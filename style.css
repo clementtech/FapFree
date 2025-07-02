@@ -1,40 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 body {
-  background-color: black;
-  color: white;
+  background-color: #121212;
+  color: #ffffff;
   text-align: center;
-  font-family: Roboto;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .box {
-  background-color: #fda530;
-  height: 500px;
-  width: 300px;
-  align-items: center;
+  background-color: #1e1e1e;
+  padding: 40px;
   border-radius: 25px;
-  margin: auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  width: 350px;
 }
 
 h1 {
-  padding: 10px;
+  padding-bottom: 20px;
+  font-weight: 600;
 }
 
 .score {
-  width: 100px;
-  height: 50px;
-  background-color: black;
+  width: 120px;
+  height: 120px;
+  background-color: #2a2a2a;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  border-radius: 25px;
-  margin: auto;
+  font-size: 48px;
+  font-weight: 600;
+  border: 4px solid #fda530;
 }
 
 button {
     margin: 10px;
-    width: 100px;
+    width: 150px;
     height: 50px;
-    border: 2px sold white;
-    background-color: black;
-    color: white;
+    border: none;
+    background-color: #fda530;
+    color: #121212;
     border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-/* #fda530 */
+button:hover {
+    background-color: #ffb74d;
+}
+
+#resetButton {
+    background-color: #424242;
+    color: white;
+}
+
+#resetButton:hover {
+    background-color: #616161;
+}
