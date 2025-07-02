@@ -1,3 +1,2 @@
 # FapFree
-
-![screenshot](preview.jpg)
+Fap Free Tracker
