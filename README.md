@@ -1,6 +1,9 @@
 # FapFree
 FapFree is a simple web-based tracker designed to help users on their NoFap journey. It allows users to track their progress, with streak days to provide motivation and insights into their habits.
 
+## Preview:
+![FapFree Preview](https://clementtech.github.io/FapFree/assets/preview.png)
+
 ## Features:
 - **Streak Tracking:** Keep track of your streak days and see your progress over time.
 - **User-Friendly Interface:** Enjoy a clean and simple interface that makes tracking easy.
