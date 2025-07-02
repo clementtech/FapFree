@@ -1,0 +1,43 @@
+{
+"name": "FapFree - No Fap Tracker",
+"short_name": "Maps",
+"start_url": "https://clementtech.github.io/FapFree/",
+"display": "standalone",
+"description": "A simple tracker to help you on your NoFap journey.",
+"lang": "en",
+"dir": "auto",
+"theme_color": "#000000",
+"background_color": "#000000",
+"orientation": "any",
+"icons": [
+    {
+        "src": "https://www.pwabuilder.com/assets/icons/icon_512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+    },
+    {
+        "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+    }
+],
+"screenshots": [
+    {
+        "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+        "sizes": "2880x1800",
+        "type": "image/png",
+        "description": "A screenshot of the home page"
+    }
+],
+
+"prefer_related_applications": false,
+"shortcuts": [
+    {
+        "name":"Maps",
+        "url":"https://clementtech.github.io/FapFree/",
+        "description":"Navigation"
+    }
+]
+}
