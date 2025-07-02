@@ -1,20 +1,36 @@
 body {
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-family: Roboto;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Roboto;
 }
 
 .box {
-    background-color: #fda530;
-    height: 500px;
-    width: 300px;
-    align-items: center;
-    border-radius: 25px;
-    margin: auto;
+  background-color: #fda530;
+  height: 500px;
+  width: 300px;
+  align-items: center;
+  border-radius: 25px;
+  margin: auto;
 }
 
 h1 {
-    padding: 10px;
+  padding: 10px;
 }
+
+.score {
+  width: 100px;
+  height: 50px;
+  background-color: black;
+  align-items: center;
+  border-radius: 25px;
+  margin: auto;
+}
+
+button {
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+}
+
 /* #fda530 */
