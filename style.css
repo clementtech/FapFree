@@ -31,6 +31,10 @@ button {
     margin: 10px;
     width: 100px;
     height: 50px;
+    border: 2px sold white;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
 }
 
 /* #fda530 */
