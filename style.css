@@ -62,6 +62,12 @@ button:disabled {
     cursor: not-allowed;
 }
 
+#countdown {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #aaa;
+}
+
 #resetButton {
     background-color: #424242;
     color: white;
